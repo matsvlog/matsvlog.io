@@ -4,7 +4,7 @@ import '../App.css';
 
 import {
   useMediaQuery,
-  Link,
+  Link as CLink,
   FormControl,
   Text,
   Heading,
@@ -58,42 +58,9 @@ export default function Home() {
         </Box>
 
         <Container>
-          <div id="mc_embed_signup">
-            <FormControl
-              action="https://matsvlog.us14.list-manage.com/subscribe/post?u=1c1bd018a989925bef6f61e2b&amp;id=28f8d54e1c"
-              method="post"
-              id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form"
-              class="validate"
-              target="_blank"
-              novalidate>
-              <div id="mc_embed_signup_scroll">
-                <label for="mce-EMAIL">Subscribe to our newsletter</label>
-                <HStack>
-                  <Input
-                    type="email"
-                    name="EMAIL"
-                    class="email"
-                    id="mce-EMAIL"
-                    placeholder="email address"
-                    required
-                  />
-                  <Button onClick={subscribe} type="submit">
-                    send
-                  </Button>
-                  <div aria-hidden="true">
-                    <Input
-                      type="hidden"
-                      name="b_1c1bd018a989925bef6f61e2b_28f8d54e1c"
-                      tabindex="-1"
-                      value=""
-                    />
-                  </div>
-                </HStack>
-                <Text color="green.500">{thankyou}</Text>
-              </div>
-            </FormControl>
-          </div>
+          <CLink href="/subscribe.html">
+            <Button>subscribe to our newsletter</Button>
+          </CLink>
         </Container>
       </center>
     </Flex>
