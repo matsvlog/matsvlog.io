@@ -32,6 +32,7 @@ export default function App() {
 
   return (
     <VStack>
+      <Box h="5px" />
       <Heading fontSize="2xl" color={STATIC.TITLE}>
         Mat's Vlog
       </Heading>
