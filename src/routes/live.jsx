@@ -14,6 +14,7 @@ import {
   VStack,
   Container,
   Button,
+  Center,
   Box,
   Avatar,
   Table,
@@ -38,16 +39,18 @@ export default function Live() {
     <Flex>
       <center>
         <Box bg="black.600">
-          <center>
-            <Heading color={STATIC.HEADING} fontSize="6xl">
-              Live Stream
-            </Heading>
-            <iframe
-              src="https://player.twitch.tv/?channel=matsvlog&parent=matsvlog.com"
-              height="1080"
-              width="1920"
-              allowfullscreen="true"></iframe>
-          </center>
+          <Center>
+            <VStack>
+              <Heading color={STATIC.HEADING} fontSize="6xl">
+                Live Stream
+              </Heading>
+              <iframe
+                src="https://player.twitch.tv/?channel=matsvlog&parent=matsvlog.com"
+                height="1080"
+                width="1920"
+                allowfullscreen="true"></iframe>
+            </VStack>
+          </Center>
         </Box>
       </center>
     </Flex>
