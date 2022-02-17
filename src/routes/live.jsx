@@ -30,10 +30,42 @@ import {
 
 import * as STATIC from '../model/static';
 
+const EMBED_URL = 'https://embed.twitch.tv/embed/v1.js';
+
+class TwitchPlayer extends React.Component {
+  componentDidMount() {
+    let embed;
+    const script = document.createElement('script');
+    script.setAttribute('src', EMBED_URL);
+    script.addEventListener('load', () => {
+      embed = new window.Twitch.Embed(this.props.targetID, { ...this.props });
+    });
+    document.body.appendChild(script);
+  }
+
+  render() {
+    return (
+      <div>
+        {/* TwitchPlayer {this.props.targetID} {this.props.width}{' '}
+        {this.props.height} */}
+        <div id={this.props.targetID}></div>
+      </div>
+    );
+  }
+}
+
 export default function Live() {
   const isDesktop = useMediaQuery({ query: '(min-width: 1537px)' });
 
   useEffect(() => {});
+
+  TwitchPlayer.defaultProps = {
+    targetID: 'twitch-embed',
+    width: '1920',
+    height: '1080',
+    parent: ['matsvlog.com', 'www.matsvlog.com', 'localhost'],
+    channel: 'matsvlog',
+  };
 
   return (
     <Flex>
@@ -44,11 +76,7 @@ export default function Live() {
               <Heading color={STATIC.HEADING} fontSize="6xl">
                 Live Stream
               </Heading>
-              <iframe
-                src="https://player.twitch.tv/?channel=matsvlog&parent=matsvlog.com"
-                height="1080"
-                width="1920"
-                allowfullscreen="true"></iframe>
+              <TwitchPlayer />
             </VStack>
           </Center>
         </Box>
