@@ -15,3 +15,4 @@ export const TOMATO = '#FF6666';
 
 export const TITLE = '#999999';
 export const HEADING = '#FFFFCC';
+export const SUBHEADING = '#CCCCCC';

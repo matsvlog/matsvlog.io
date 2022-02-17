@@ -14,6 +14,10 @@ import '@fontsource/open-sans/700.css';
 import App from './App';
 import Home from './routes/home';
 import Live from './routes/live';
+import Companies from './routes/companies';
+import Metaverse from './routes/metaverse';
+import Videos from './routes/videos';
+import Tools from './routes/tools';
 
 const theme = extendTheme({
   fonts: {
@@ -39,6 +43,10 @@ render(
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="live" element={<Live />} />
+          <Route path="companies" element={<Companies />} />
+          <Route path="metaverse" element={<Metaverse />} />
+          <Route path="videos" element={<Videos />} />
+          <Route path="tools" element={<Tools />} />
         </Route>
       </Routes>
     </HashRouter>

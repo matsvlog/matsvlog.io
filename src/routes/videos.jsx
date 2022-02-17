@@ -29,16 +29,10 @@ import {
 
 import * as STATIC from '../model/static';
 
-export default function Home() {
-  const [thankyou, setThankyou] = React.useState('');
-
+export default function Videos() {
   const isDesktop = useMediaQuery({ query: '(min-width: 1537px)' });
 
   useEffect(() => {});
-
-  const subscribe = () => {
-    setThankyou('Thank you!');
-  };
 
   return (
     <Flex>
@@ -46,12 +40,12 @@ export default function Home() {
         <Box bg="black.600">
           <center>
             <Heading color={STATIC.SUBHEADING} fontSize="4xl">
-              Home
+              Videos
             </Heading>
-            <Image src="quantum.jpeg" />
           </center>
         </Box>
       </center>
+      <br />
     </Flex>
   );
 }

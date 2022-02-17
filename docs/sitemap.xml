@@ -6,11 +6,28 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>http://matsvlog.com/</loc>
   <lastmod>2022-02-17T11:48:49+00:00</lastmod>
 </url>
-
-
+<url>
+  <loc>http://matsvlog.com/#/live</loc>
+  <lastmod>2022-02-17T11:48:49+00:00</lastmod>
+</url>
+<url>
+  <loc>http://matsvlog.com/#/videos</loc>
+  <lastmod>2022-02-17T11:48:49+00:00</lastmod>
+</url>
+<url>
+  <loc>http://matsvlog.com/#/metaverse</loc>
+  <lastmod>2022-02-17T11:48:49+00:00</lastmod>
+</url>
+<url>
+  <loc>http://matsvlog.com/#/companies</loc>
+  <lastmod>2022-02-17T11:48:49+00:00</lastmod>
+</url>
+<url>
+  <loc>http://matsvlog.com/#/tools</loc>
+  <lastmod>2022-02-17T11:48:49+00:00</lastmod>
+</url>
 </urlset>

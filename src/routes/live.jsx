@@ -79,7 +79,7 @@ export default function Live() {
         <Box bg="black.600">
           <Center>
             <VStack>
-              <Heading color={STATIC.HEADING} fontSize="6xl">
+              <Heading color={STATIC.SUBHEADING} fontSize="4xl">
                 Live Stream
               </Heading>
               <TwitchPlayer />
