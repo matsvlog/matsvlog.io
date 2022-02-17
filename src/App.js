@@ -67,7 +67,7 @@ export default function App() {
       </Menu>
       <Divider orientation="horizontal" />
       {/* This is the Ouutlet=============================================================== */}
-      <Outlet width="100%" margin="0px" />
+      <Outlet width="100%" margin="5px" />
       {/* This is the Ouutlet=============================================================== */}
       <Divider orientation="horizontal" />
       <Box height="15px" />
