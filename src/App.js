@@ -80,6 +80,7 @@ export default function App() {
 
       <Text fontSize="xs" color="teal.500">
         Ⓒ Copyright: TECH41 GmbH, Unter den Linden 24, 10117 Berlin, Germany,
+        Version: {STATIC.VERSION}
       </Text>
 
       <CLink fontSize="xs" color="blue.500" href="mailto:mat@matsvlog.com">

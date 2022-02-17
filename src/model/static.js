@@ -1,5 +1,7 @@
 /** @format */
 
+export const VERSION = '0.0.2';
+
 // Colors
 export const WHITE = '#FFFFFF';
 export const COLOR5 = '#EAFOCE';

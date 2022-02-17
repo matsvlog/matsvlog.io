@@ -165,7 +165,7 @@ export default function Metaverse() {
             </Table>
             <br />
             <Text>
-              For a complete listing see Ryan Schultz:{' '}
+              For a complete listing see Ryan Schultz: <br />
               <CLink
                 color="blue.500"
                 href=" https://ryanschultz.com/list-of-social-vr-virtual-worlds/"
