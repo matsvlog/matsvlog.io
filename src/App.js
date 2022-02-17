@@ -52,7 +52,9 @@ export default function App() {
         hackers, makers and fans alike
       </Text>
       <Menu>
-        <MenuButton color="blue.500">Go to</MenuButton>
+        <MenuButton color="blue.500">
+          <HamburgerIcon /> Menu
+        </MenuButton>
         <Portal>
           <MenuList>
             <MenuItem onClick={() => navigate('home')}>Home</MenuItem>
