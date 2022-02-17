@@ -71,8 +71,8 @@ export default function About() {
                     been created, which now come together to make the Metaverse
                     a reality. From the beginnings of the the Internet (ARPA
                     1960) area, home computer or PC (1981), the Web (1989),
-                    mobile and smartphone to virtualisation and cloud computing
-                    driven by opensource innovations to 3D vizor hardware like
+                    mobile and smartphone to virtualization and cloud computing
+                    driven by open source innovations to 3D vizor hardware like
                     the{' '}
                     <CLink HREF="https://www.oculus.com/rift/" IsExternal>
                       Oculus Rift,
@@ -82,13 +82,13 @@ export default function About() {
                   </p>
                   <br />
                   <p>
-                    Crypto technolgies and blockchains based on decentralized
+                    Crypto technologies and blockchains based on decentralized
                     Consensus Algorithms allow new business models and new
                     organisational forms like DAOs to emerge.
                   </p>
                   <br />
                   <p>
-                    Digital nomads are working remotely from any where in the
+                    Digital nomads are working remotely from anywhere in the
                     world without any geopolitical borders or social constraints
                     bringing us closer together and foster Financial Inclusion.
                   </p>
@@ -107,12 +107,12 @@ export default function About() {
                   </p>
                   <br />
                   <p>
-                    Tags: Audio: Sound, Foley, Music, Ambience, TTS, Speech
+                    Tags: Audio: Sound, Foley, Music, Ambiance, TTS, Speech
                     Recognition, Visual: Images, Videos, Shaders, 3D Animation,
                     Avatars, Chat, Networking, Crypto, NFT, Assets, Game
                     Engines, Motion Capture, Storyboards, Studio Gear, Mic,
                     Camera, Lights, Composing, Editing, Color Grading, Chat
-                    Bots, Pathfinding, Programming, Midi, OSC, DMX, Scripting,
+                    Bots, Path finding, Programming, Midi, OSC, DMX, Scripting,
                     Decentralized Identity, DID, ML and AI.
                   </p>
                   <br />

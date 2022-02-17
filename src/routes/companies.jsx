@@ -82,6 +82,19 @@ export default function Companies() {
               </Tr>
 
               <Tr>
+                <Td fontSize="2xl">Oculus</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href=" https://www.oculus.com/"
+                    isExternal>
+                    oculus.com
+                  </CLink>
+                </Td>
+              </Tr>
+
+              <Tr>
                 <Td fontSize="2xl">Ready Player Me</Td>
                 <Td>
                   <CLink
