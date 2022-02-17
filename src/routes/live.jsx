@@ -39,6 +39,12 @@ class TwitchPlayer extends React.Component {
     script.setAttribute('src', EMBED_URL);
     script.addEventListener('load', () => {
       embed = new window.Twitch.Embed(this.props.targetID, { ...this.props });
+      embed.addEventListener(window.Twitch.Embed.VIDEO_READY, function () {
+        console.log('The video is ready');
+      });
+      embed.addEventListener(window.Twitch.Embed.VIDEO_PLAY, function () {
+        console.log('The video is playing');
+      });
     });
     document.body.appendChild(script);
   }
