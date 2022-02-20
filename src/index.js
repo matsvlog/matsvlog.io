@@ -19,6 +19,7 @@ import Metaverse from './routes/metaverse';
 import Videos from './routes/videos';
 import Tools from './routes/tools';
 import About from './routes/about';
+import Books from './routes/books';
 
 const theme = extendTheme({
   fonts: {
@@ -49,6 +50,7 @@ render(
           <Route path="videos" element={<Videos />} />
           <Route path="tools" element={<Tools />} />
           <Route path="about" element={<About />} />
+          <Route path="books" element={<Books />} />
         </Route>
       </Routes>
     </HashRouter>
