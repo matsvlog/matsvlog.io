@@ -63,6 +63,7 @@ export default function App() {
             <MenuItem onClick={() => navigate('tools')}>Tools</MenuItem>
             <MenuItem onClick={() => navigate('metaverse')}>Metaverse</MenuItem>
             <MenuItem onClick={() => navigate('companies')}>Companies</MenuItem>
+            <MenuItem onClick={() => navigate('startups')}>Startups</MenuItem>
             <MenuItem onClick={() => navigate('books')}>Books</MenuItem>
             <MenuItem onClick={() => navigate('about')}>About</MenuItem>
           </MenuList>

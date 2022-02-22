@@ -40,9 +40,69 @@ export default function Companies() {
         <Box bg="black.600">
           <center>
             <Heading color={STATIC.SUBHEADING} fontSize="4xl">
-              Companies
+              Metaverse Companies
             </Heading>
             <Table>
+              <Tr>
+                <Td fontSize="2xl">Nvidia</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href="https://nvidia.com/"
+                    isExternal>
+                    nvidia.com
+                  </CLink>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td fontSize="2xl">Apple</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href="https://apple.com"
+                    isExternal>
+                    apple.com
+                  </CLink>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td fontSize="2xl">Adobe</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href="https://adobe.com"
+                    isExternal>
+                    adobe.com
+                  </CLink>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td fontSize="2xl">Autodesk</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href="https://autodesk.com"
+                    isExternal>
+                    autodesk.com
+                  </CLink>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td fontSize="2xl">Meta</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href="https://meta.com"
+                    isExternal>
+                    meta.com
+                  </CLink>
+                </Td>
+              </Tr>
               <Tr>
                 <Td fontSize="2xl">Unity</Td>
                 <Td>
@@ -69,19 +129,6 @@ export default function Companies() {
               </Tr>
 
               <Tr>
-                <Td fontSize="2xl">Meta</Td>
-                <Td>
-                  <CLink
-                    color="blue.500"
-                    fontSize="2xl"
-                    href="https://meta.com"
-                    isExternal>
-                    meta.com
-                  </CLink>
-                </Td>
-              </Tr>
-
-              <Tr>
                 <Td fontSize="2xl">Oculus</Td>
                 <Td>
                   <CLink
@@ -90,44 +137,6 @@ export default function Companies() {
                     href=" https://www.oculus.com/"
                     isExternal>
                     oculus.com
-                  </CLink>
-                </Td>
-              </Tr>
-
-              <Tr>
-                <Td fontSize="2xl">Ready Player Me</Td>
-                <Td>
-                  <CLink
-                    color="blue.500"
-                    fontSize="2xl"
-                    href="https://readyplayer.me/"
-                    isExternal>
-                    readyplayer.me
-                  </CLink>
-                </Td>
-              </Tr>
-
-              <Tr>
-                <Td fontSize="2xl">Animaze</Td>
-                <Td>
-                  <CLink
-                    color="blue.500"
-                    fontSize="2xl"
-                    href="https://www.animaze.us/"
-                    isExternal>
-                    animaze.us
-                  </CLink>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td fontSize="2xl">Youfoundme</Td>
-                <Td>
-                  <CLink
-                    color="blue.500"
-                    fontSize="2xl"
-                    href="https://youfoundme.io"
-                    isExternal>
-                    youfoundme.io
                   </CLink>
                 </Td>
               </Tr>
