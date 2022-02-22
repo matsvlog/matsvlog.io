@@ -81,6 +81,18 @@ export default function Startups() {
                   </CLink>
                 </Td>
               </Tr>
+              <Tr>
+                <Td fontSize="2xl">Union Avatars</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href="  https://unionavatars.com/"
+                    isExternal>
+                    unionavatars.com
+                  </CLink>
+                </Td>
+              </Tr>
             </Table>
           </center>
         </Box>

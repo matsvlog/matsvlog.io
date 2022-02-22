@@ -140,19 +140,6 @@ export default function Companies() {
                   </CLink>
                 </Td>
               </Tr>
-
-              <Tr>
-                <Td fontSize="2xl">Blender</Td>
-                <Td>
-                  <CLink
-                    color="blue.500"
-                    fontSize="2xl"
-                    href="https://www.blender.org/"
-                    isExternal>
-                    blender.org
-                  </CLink>
-                </Td>
-              </Tr>
             </Table>
           </center>
         </Box>

@@ -42,7 +42,8 @@ export default function App() {
       <Box h="5px" />
 
       <Heading fontSize="2xl" color={STATIC.TITLE}>
-        Mat's Vlog
+        {/* Mat's Vlog */}
+        <Image src="logo192.png" width="61px" height="61px" />
       </Heading>
       <Heading color={STATIC.HEADING} fontSize="6xl">
         Welcome to Mat's Vlog
@@ -64,6 +65,9 @@ export default function App() {
             <MenuItem onClick={() => navigate('metaverse')}>Metaverse</MenuItem>
             <MenuItem onClick={() => navigate('companies')}>Companies</MenuItem>
             <MenuItem onClick={() => navigate('startups')}>Startups</MenuItem>
+            <MenuItem onClick={() => navigate('opensource')}>
+              Open Source Projects
+            </MenuItem>
             <MenuItem onClick={() => navigate('books')}>Books</MenuItem>
             <MenuItem onClick={() => navigate('about')}>About</MenuItem>
           </MenuList>

@@ -21,6 +21,7 @@ import Tools from './routes/tools';
 import About from './routes/about';
 import Books from './routes/books';
 import Startups from './routes/startups';
+import Opensource from './routes/opensource';
 
 const theme = extendTheme({
   fonts: {
@@ -46,9 +47,10 @@ render(
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="live" element={<Live />} />
+          <Route path="metaverse" element={<Metaverse />} />
           <Route path="companies" element={<Companies />} />
           <Route path="startups" element={<Startups />} />
-          <Route path="metaverse" element={<Metaverse />} />
+          <Route path="opensource" element={<Opensource />} />
           <Route path="videos" element={<Videos />} />
           <Route path="tools" element={<Tools />} />
           <Route path="about" element={<About />} />
