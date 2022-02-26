@@ -142,6 +142,14 @@ export default function Books() {
         alt: 'some',
         desc: 'some description',
       },
+      {
+        title: 'Digital Lighting and Rendering',
+        author: 'Jeremy Birn',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/51b93Sh3sPL._SX408_BO1,204,203,200_.jpg',
+        alt: 'Digital Lighting and Rendering',
+        url: 'https://www.amazon.com/Digital-Lighting-Rendering-Voices-Matter-ebook-dp-B00GFSAOMU/dp/B00GFSAOMU',
+        desc: 'some description',
+      },
     ];
     setBooks(books);
   }, []);

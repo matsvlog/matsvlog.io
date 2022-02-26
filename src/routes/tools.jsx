@@ -118,6 +118,18 @@ export default function Tools() {
                   </CLink>
                 </Td>
               </Tr>
+              <Tr>
+                <Td fontSize="2xl">Houdini</Td>
+                <Td>
+                  <CLink
+                    color="blue.500"
+                    fontSize="2xl"
+                    href=" https://www.sidefx.com/products/houdini/"
+                    isExternal>
+                    sidefx.com
+                  </CLink>
+                </Td>
+              </Tr>
             </Table>
           </center>
         </Box>

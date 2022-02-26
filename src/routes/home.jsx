@@ -48,7 +48,7 @@ export default function Home() {
             <Heading color={STATIC.SUBHEADING} fontSize="4xl">
               Home
             </Heading>
-            <Image src="quantum.jpeg" />
+            <Image src="meta.png" />
           </center>
         </Box>
       </center>
