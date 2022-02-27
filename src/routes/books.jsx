@@ -117,6 +117,14 @@ export default function Books() {
         url: 'https://www.amazon.com/gp/product/1484279530/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1484279530&linkCode=as2&tag=matsvlog-20&linkId=be73ed329403b15b70f08a75afb61a50',
       },
       {
+        title: 'Digital Lighting and Rendering',
+        author: 'Jeremy Birn',
+        img: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B00GFSAOMU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=matsvlog-20',
+        alt: 'Digital Lighting and Rendering',
+        url: 'https://www.amazon.com/gp/product/B00GFSAOMU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00GFSAOMU&linkCode=as2&tag=matsvlog-20&linkId=5a0cfe1c8e47bff9b0a38fa3fc2eabd4',
+        desc: 'Digital Lighting and Rendering  (Voices That Matter) ',
+      },
+      {
         title: 'Real-Time Rendering',
         author: 'Tomas Akenine-Möller, Eric Haines, Naty Hoffman',
         img: 'https:////ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1138627003&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=matsvlog-20',
@@ -150,14 +158,7 @@ export default function Books() {
         desc: 'DAFX: Digital Audio Effects 2nd Edition',
         url: 'https://www.amazon.com/gp/product/0470665998/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0470665998&linkCode=as2&tag=matsvlog-20&linkId=31471897da595845ef61fb9e9b405d87',
       },
-      {
-        title: 'Digital Lighting and Rendering',
-        author: 'Jeremy Birn',
-        img: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B00GFSAOMU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=matsvlog-20',
-        alt: 'Digital Lighting and Rendering',
-        url: 'https://www.amazon.com/gp/product/B00GFSAOMU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00GFSAOMU&linkCode=as2&tag=matsvlog-20&linkId=5a0cfe1c8e47bff9b0a38fa3fc2eabd4',
-        desc: 'Digital Lighting and Rendering  (Voices That Matter) ',
-      },
+
       {
         title: 'Self-Sovereign Identity',
         author: 'Alex Preukschat, Drummond Reed',
