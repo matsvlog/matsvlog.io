@@ -182,7 +182,7 @@ export default function Books() {
   };
 
   return (
-    <Flex>
+    <Flex width="100%">
       <center>
         <Box bg="black.600">
           <center>
@@ -195,14 +195,14 @@ export default function Books() {
                 let b = books[k];
                 return (
                   <Tr key={i}>
-                    <Td>
+                    <Td width="150px">
                       <CLink href={b.url} isExternal>
                         <Image
                           borderWidth="1px"
                           borderColor="teal.500"
                           borderStyle="solid"
-                          width="100px"
-                          height="150px"
+                          w="130px"
+                          h="150px"
                           src={b.img}
                           alt={b.alt}
                         />
