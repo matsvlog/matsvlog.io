@@ -144,10 +144,19 @@ export default function Books() {
         title: '3D User Interfaces',
         author:
           ' Jr. LaViola, Joseph J., Ernst Kruijff, Ryan P. McMahan, Doug Bowman, Ivan P. Poupyrev',
-        img: 'https:////ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134034325&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=matsvlog-20',
+        img: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134034325&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=matsvlog-20',
         alt: '3D User Interfaces',
         desc: 'The Complete, Up-To-Date Guide to Building Great 3D User Interfaces for Any Application',
         url: 'https://www.amazon.com/gp/product/0134034325/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134034325&linkCode=as2&tag=matsvlog-20&linkId=8f6bb93575bbbd6d8e651266200258f5',
+      },
+
+      {
+        title: 'Game Engine Architecture',
+        author: 'Jason Gregory',
+        img: 'https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1138035459&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=matsvlog-20',
+        alt: 'Game Engine Architecture',
+        desc: 'Game Engine Architecture, Third Edition',
+        url: 'https://www.amazon.com/gp/product/1138035459/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1138035459&linkCode=as2&tag=matsvlog-20&linkId=192c5ee5f6c34bc39ab9cf0e6cc9c13e',
       },
 
       {
