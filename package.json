@@ -9,7 +9,7 @@
     "@fontsource/noto-sans": "^4.5.3",
     "@fontsource/open-sans": "^4.5.5",
     "@fontsource/raleway": "^4.5.3",
-    "@fontsource/zilla-slab": "^4.5.1",
+    "@fontsource/zilla-slab": "^4.5.5",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
